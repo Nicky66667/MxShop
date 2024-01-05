@@ -82,7 +82,40 @@
 }
 .cart:hover>.cart-list{
     display: block;
-
 }
+/* Download App*/
+.nav-left li{
+    position: relative;
+}
+
+.download{
+    width: 124px;
+    height: 0;
+    background-color: #fff;
+    /*row colomn ambiguity colour*/
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.nav-left li:hover>.download{
+    height: 148px;
+}
+
+.download>img{
+    width: 90px;
+    margin: 18px 0 12px;
+}
+
+.download>p{
+    color: #333;
+    font-size: 14px;
+    line-height: 14px;
+}
+
 
 /* black navigation end*/
