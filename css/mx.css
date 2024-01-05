@@ -148,9 +148,28 @@
     height: 55px;
     background-color:greenyellow;
     margin-top: 22.5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-img{
+    position: a;
+    top: 0;
+    left: 0;
 }
 
 .home{
     position: absolute;
+    top: 0;
+    left: -55px;
+}
+
+.logo-box:hover .home{
+    left:0;
+}
+
+.logo-box:hover .logo-img{
+    left:55px;
+
 }
 /*white navigation end*/
