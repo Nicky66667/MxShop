@@ -122,19 +122,26 @@
 .white-nav{
     width: 100%;
     height: 100px;
-    background-color: pink;
+    background-color: #fff;
+    position: relative;
     clear: both;
 }
+
+.nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
 .logo{
     width:234px;
     height: 100px;
-    background-color: red;
     float: left;
 }
 .nav-bar{
     width:696px;
     height: 100px;
-    background-color: aqua;
     float: left;
 }
 .search{
@@ -153,15 +160,17 @@
 }
 
 .logo-img{
-    position: a;
+    position: absolute;
     top: 0;
     left: 0;
+    transition: all .3s;
 }
 
 .home{
     position: absolute;
     top: 0;
     left: -55px;
+    transition: all .3s;
 }
 
 .logo-box:hover .home{
@@ -172,4 +181,67 @@
     left:55px;
 
 }
+
+.nav-bar>ul>li{
+    float: left;
+    padding: 38px 10px;
+}
+
+.nar-bar a{
+    color: #333;
+}
+
+.nav-bar a:hover{
+    color: #ff6700;
+}
+
+/*drop-down list start*/
+.nav-list{
+    width: 100%;
+    height: 229px;
+    border-top:1px solid #eee;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    display: none;
+}
+
+.nav-bar li:hover>.nav-list{
+    display: block;
+}
+/*drop-down list content*/
+.nav-list li{
+    width: 204px;
+    height: 201px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.img-box{
+    width: 100%;
+    height: 110px;
+    border-right: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.nav-name{
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.nav-price{
+    color: #ff6700;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.nav-list li:last-child .img-box{
+    border-right: none;
+}
+/*drop-down list end*/
+
 /*white navigation end*/
