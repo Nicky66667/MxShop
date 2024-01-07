@@ -455,3 +455,70 @@
     color: #333;
 }
 /*banner end*/
+/*swiper-click start*/
+.ad{
+    width: 100%;
+    height: 170px;
+    margin: 14px 0 26px;
+}
+
+.aside{
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    float: left;
+    padding: 3px;
+    box-sizing: border-box;
+    
+}
+
+.ad-box{
+    width: 316px;
+    height: 170px;
+    background-color: gold;
+    float: left;
+    margin-left: 14.66px;
+    transition: all .2s linear;
+}
+
+.ad-box img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.ad-box:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.ad-box img{
+    width: 100%;
+}
+
+.ad-box:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.aside li{
+    float: left;
+    width: 76px;
+    height: 82px;
+}
+
+.aside a{
+    color: #fff;
+    font-size: 12px;
+    opacity: .7;
+    display: block;
+    padding-top: 20px;
+    transition: all .2s;
+}
+
+.aside i{
+    font-size: 24px;
+}
+
+.aside a:hover{
+    opacity: 1;
+}
+/*swiper-click end*/
