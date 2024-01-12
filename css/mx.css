@@ -640,4 +640,35 @@
     background-color: #ff6700;
     color: #fff;
 }
+
+.footer-info{
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-info .copyRight{
+    color: #fff;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px 0 20px;
+    margin-bottom: 18px;
+}
+
+.service>ul{
+    height: 25px;
+    color: #fff;
+}
+
+.copyRight li{
+    float: left;
+    width: 20%;
+    line-height: 25px;
+    color: #b0b0b0;
+}
+
+.copyRight a{
+    padding: 0 0.72px;
+}
+
+
 /*footer end*/
