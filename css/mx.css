@@ -596,5 +596,48 @@
     font-size: 14px;
 }
 
-.link 
+.link li:first-child a{
+    color: #424242;
+    font-size: 14px;
+}
+
+.link a:hover{
+    color: #ff6700;
+}
+
+.contact{
+    width: 251px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    float: right;
+}
+
+.tel{
+    color: #ff6700;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.date{
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 12px;
+}
+
+.link .customer{
+    display: block;
+    width: 118px;
+    height: 28px;
+    border: 1px solid #ff6700;
+    margin: 0 auto;
+    color: #ff6700;
+    line-height: 28px;
+    transition: all .4s;
+
+}
+
+.link .customer:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
 /*footer end*/
